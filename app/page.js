@@ -1,9 +1,10 @@
-
+import { Navbar } from "@/src/components/Navbar";
+import './globals.css'
 export default function Home() {
 
   return (
-    <div>
-      Subscribe to ZAINKEEPSCODE :)
+    <div className="app">
+      <Navbar/>
     </div>
   );
 }
